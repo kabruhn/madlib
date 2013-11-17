@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- Author: Kyle Bruhn
+	 Filename: madlib.html
+     Date: 11/11/13
+     Purpose: Mad Libs Lab
+     Date Modified
+     11/11/13 - Orrigonal Creation of Form Elements
+     11/13/13 - Created Submit button, functions to create story, and pull through for Name box
+     -->
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    	<link href="jquery.mobile-1.3.2.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
+
+<script src="madlib300.js"> </script>
+<script src="jquery.mobile-1.3.2.js"> </script>
+
+<title>IN YO FACE!</title>
+
+</head>
+
+<body>
+
+<div data-role="page" id="page1">
+    <div data-role="content">
+        <h2>
+            Mad Lib Lab
+        </h2>
+        <h5>
+            Fill in the input below. You'll get a Mad Lib in return!
+        </h5>
+        <div data-role="fieldcontain">
+            <label for="name">
+                Please Enter Your Name
+            </label>
+            <textarea name="name" id="name" placeholder="Your name"></textarea>
+              <label for="name">
+                Please Enter A Noun
+            </label>
+            <textarea name="noun" id="noun" placeholder="A Noun"></textarea>
+                        <label for="name">
+                Please Enter A Verb
+            </label>
+            <textarea name="verb" id="verb" placeholder="A Verb"></textarea>
+        </div>
+        <input id="submit" type="submit" data-icon="check" data-iconpos="left"
+        value="Submit">
+        <div data-role="fieldcontain">
+            <label for="output">
+                Mad Lib Story
+            </label>
+            <textarea name="madlib" id="output" placeholder="">Once you complete the inputs, the Mad Lib will display here.</textarea>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
