@@ -1,0 +1,19 @@
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "edu.iu.pegasus.cs.madlib300"
+        version   = "1.0.0">
+
+    <name>Mad Lib Lab</name>
+
+    <description>
+        This file creates a MadLib once accepting a name, verb, and noun from the user.
+    </description>
+
+    <author  email="kabruhn@iupui.edu">
+        Kyle Bruhn
+    </author>
+
+    <gap:platform name="android" />
+
+    <icon src="icon.png" />
+    <!--Icon Downloaded from https://www.iconfinder.com/free_icons under Creative Commons Attribution 2.5 Denmark -->
